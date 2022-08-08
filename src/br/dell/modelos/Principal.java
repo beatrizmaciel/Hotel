@@ -35,6 +35,7 @@ public class Principal {
 			String numeroDoQuartoStr = JOptionPane.showInputDialog("Cadastre o número do quarto: ");
 			int numeroDoQuarto = Integer.parseInt(numeroDoQuartoStr);
 			Quarto quarto = new Quarto(numeroDoQuarto, hospede);
+			
 		}
 		else if(i == JOptionPane.NO_OPTION) {
 		    System.out.println("Hóspede não tem um quarto");
